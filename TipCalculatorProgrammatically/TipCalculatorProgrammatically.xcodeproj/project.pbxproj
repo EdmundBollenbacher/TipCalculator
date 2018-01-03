@@ -12,6 +12,8 @@
 		CAD75A3E1FFD7A57002BE19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD75A3C1FFD7A57002BE19B /* Main.storyboard */; };
 		CAD75A401FFD7A57002BE19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD75A3F1FFD7A57002BE19B /* Assets.xcassets */; };
 		CAD75A431FFD7A57002BE19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD75A411FFD7A57002BE19B /* LaunchScreen.storyboard */; };
+		CAD75A4B1FFD8DAC002BE19B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD75A4A1FFD8DAC002BE19B /* Calculator.swift */; };
+		CAD75A4D1FFD8EF5002BE19B /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD75A4C1FFD8EF5002BE19B /* CalculatorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CAD75A3F1FFD7A57002BE19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD75A421FFD7A57002BE19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD75A441FFD7A57002BE19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD75A4A1FFD8DAC002BE19B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		CAD75A4C1FFD8EF5002BE19B /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				CAD75A381FFD7A57002BE19B /* AppDelegate.swift */,
 				CAD75A3A1FFD7A57002BE19B /* ViewController.swift */,
+				CAD75A4A1FFD8DAC002BE19B /* Calculator.swift */,
+				CAD75A4C1FFD8EF5002BE19B /* CalculatorController.swift */,
 				CAD75A3C1FFD7A57002BE19B /* Main.storyboard */,
 				CAD75A3F1FFD7A57002BE19B /* Assets.xcassets */,
 				CAD75A411FFD7A57002BE19B /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				CAD75A3B1FFD7A57002BE19B /* ViewController.swift in Sources */,
 				CAD75A391FFD7A57002BE19B /* AppDelegate.swift in Sources */,
+				CAD75A4B1FFD8DAC002BE19B /* Calculator.swift in Sources */,
+				CAD75A4D1FFD8EF5002BE19B /* CalculatorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
